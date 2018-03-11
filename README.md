@@ -1,0 +1,32 @@
+
+<h3>Ejercicios prácticos con javaScript</h3>
+
+<p><strong>Tabla de multiplicar simple</strong></p>
+<p>Crea una pequeña aplicación JavaScript que genere las tablas de multiplicar para ello se debe preguntar la tabla que quiere y se representará en la consola.</p>
+
+<p><strong>Diseño de silla.</strong></p>
+<p>Crea una aplicación que nos pida la altura de la silla y nos dibuje por pantalla una silla con *.</p>
+
+<p><strong>Diseño de un arbol de navidad.</strong></p>
+<p>Crea una aplicación que nos pida la altura del arbol y nos dibuje por pantalla dicho arbol.</p>
+
+<p><strong>Contador hacia atras.</strong></p>
+<p>Crea una aplicación que nos muestre diferentes alerts contando desde 10 a 0 incluidos, utilizando el bucle de tipo While</p>
+
+<p><strong>Calcular el máximo de dos valores.</strong></p>
+<p>Crea una aplicación con JavaScript que permita calcular los créditos a convalidar con respecto a diferentes universidades. El usuario insertará una ciudad a la que desea convalidar los créditos. mediante un prompt .
+A continuación se muestra la convalidación de créditos (Se recomienda utilizar la estructura switch) mediante un alert:
+Universidad de Madrid y de Murcia: Se convalidarán 30 créditos
+Universidad de Alicante: No se convalidan créditos
+Universidad de Valencia, Granada y Córdoba: Se convalidan 50 créditos.</p>
+
+<p><strong>Número estricto.</strong></p>
+<p>Dado un número entero positivo N, se dice que es estricto si tiene los dígitos 1,3 y 5 al principio y los otros al final. Si no tiene dígitos 1,3,5, también es estricto.
+Se pide que desarrolles un programa que dado un número indique si es estricto o no.
+Ejemplo N=115924 es estricto, al principio 1 y 5 y los demás al estan al final.
+N=241781 No es estricto tiene al principio 2 y 4. N=1345. No es estricto, 5 está al final.
+N=51 o N=24 Son estrictos.</p>
+
+<p><strong>Calculadora con vista grafica</strong></p>
+<p>Realizacion de una calculadora con vista grafica.</p>
+
