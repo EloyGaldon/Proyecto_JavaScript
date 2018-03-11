@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="imagenes/logoCalculadora.jpg">
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/stylo.css">
+</head>
+<body>
+<table width="13%" border="1">
+  <tr>
+    <td colspan="4" align="center">
+    <input name="display" type="text" class="color_display" id="display" size="25"></td>
+  </tr>
+  <tr>
+    <td width="21%"><input name="button2" type="button" class="numero" id="button23" value="CA" onclick="reset()"></td>
+    <td width="21%">&nbsp;</td>
+    <td width="21%">&nbsp;</td>
+    <td width="21%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
+  </tr>
+  <tr>
+    <td><input name="num7" type="button" class="numero" id="num7" value="7" onclick="display_numeros(7)"></td>
+    <td><input name="num8" type="button" class="numero" id="num8" value="8" onclick="display_numeros(8)"></td>
+    <td><input name="num9" type="button" class="numero" id="num9" value="9" onclick="display_numeros(9)"></td>
+    <td><input name="button2" type="button" class="numero" id="button2" value="-" onclick="resta()"></td>
+  </tr>
+  <tr>
+    <td><input name="num4" type="button" class="numero" id="num4" value="4" onclick="display_numeros(4)"></td>
+    <td><input name="num5" type="button" class="numero" id="num5" value="5" onclick="display_numeros(5)"></td>
+    <td><input name="num6" type="button" class="numero" id="num6" value="6" onclick="display_numeros(6)"></td>
+    <td><input name="button3" type="button" class="numero" id="button3" value="*" onclick="muti()"></td>
+  </tr>
+  <tr>
+    <td><input name="num1" type="button" class="numero" id="num1" value="1" onclick="display_numeros(1)"></td>
+    <td><input name="num2" type="button" class="numero" id="num2" value="2" onclick="display_numeros(2)"></td>
+    <td><input name="num3" type="button" class="numero" id="num3" value="3" onclick="display_numeros(3)"></td>
+    <td><input name="button4" type="button" class="numero" id="button4" value="/" onclick="div()"></td>
+  </tr>
+  <tr>
+    <td><input name="num0" type="button" class="numero" id="num0" value="0" onclick="display_numeros(0)"></td>
+    <td><input name="button17" type="button" class="numero" id="button17" value="," onclick="display_numeros('.')"></td>
+    <td colspan="2" class="equal"><input name="button12" type="button" class="igual" id="button12" value="=" onclick="equal()"></td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  document.getElementById('display').value=0;
+</script>
+
+<script type="text/javascript" src="js/funciones.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.numero{
+	width:65px;
+	height:60px;
+		
+}
+
+tr{
+	text-align: center;
+}
+
+td{
+	width:64px;
+}
+
+.igual{
+	width:140px;
+	height:60px;	
+}
+.equal{
+	text-align: center;
+}
+
+table{
+	margin:auto;
+}
+
+.color_display{
+	height:40px;
+	background-color:#000;
+	border:medium #FFF;
+	font: "Space Age";
+	color:#0F0;
+	font-size:18px;
+	text-align:right;
+	padding:5px;
+}
