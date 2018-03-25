@@ -30,7 +30,11 @@ N=51 o N=24 Son estrictos.</p>
 <p><strong>Calculadora con vista grafica</strong></p>
 <p>Realizacion de una calculadora con vista grafica.</p>
 
+<<<<<<< HEAD
 <p><strong>Número simpático.</strong>
+=======
+<p><strong>Número simpático.</strong></p>
+>>>>>>> 3446b1b28da17dcdd90e676cc9048404eeb9882a
 <p>Dado un número entero positivo N, se dice que es simpático si se cumple lo siguiente: su expresión en base 2 (binaria) viene dada por una combinación intercalada de unos (1) y ceros (0), es decir, después de un 1 va un 0, luego un 1, luego un cero y así sucesivamente. Se pide generar un programa que dado número N, indique si es simpático o no. Ejemplos N = 42 ES SIMPÁTICO, ya que su representación en binario es 101010. N = 84 NO ES SIMPÁTICO, ya que su representación en binario es 1010100</p>
 
 <p><strong>Números naturales.</strong></p>
