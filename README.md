@@ -30,7 +30,7 @@ N=51 o N=24 Son estrictos.</p>
 <p><strong>Calculadora con vista grafica</strong></p>
 <p>Realizacion de una calculadora con vista grafica.</p>
 
-<p><strong>Número simpático.
+<p><strong>Número simpático.</strong>
 <p>Dado un número entero positivo N, se dice que es simpático si se cumple lo siguiente: su expresión en base 2 (binaria) viene dada por una combinación intercalada de unos (1) y ceros (0), es decir, después de un 1 va un 0, luego un 1, luego un cero y así sucesivamente. Se pide generar un programa que dado número N, indique si es simpático o no. Ejemplos N = 42 ES SIMPÁTICO, ya que su representación en binario es 101010. N = 84 NO ES SIMPÁTICO, ya que su representación en binario es 1010100</p>
 
 <p><strong>Números naturales.</strong></p>
@@ -55,6 +55,17 @@ N=51 o N=24 Son estrictos.</p>
 
 <strong>Ejercicio2</strong>
 <p>Crea una función flecha que comprueba que el valor que el paso como argumento es un String o no y devuelva en el tipo de variable.</p>
+
+<h3>Actividades para prácticar con los arrays</h3>
+
+<p><strong>Ejercicio1</strong></p>
+<p>Escribe una función que genere un array de un tamaño especfico, y que se rellene con números enteros, que se incrementa desde el númeor iniciado hasta el tamaño del array: Por ejemplo: rangeArray(4,6) obtiene el resultado [4,5,6,7,8,9] rangeArray(-9.3) obtiene el resultado [-9,-8,-7]</p>
+
+<p><strong>Ejercico2</strong></p>
+<p>Escribe una función que combine dos arrays y elimine los elementos duplicados. Por ejemplo: array1=[1,4,6,7] array2=[4,5,8,9] obtiene el resultado [1,5,6,7,8,9]</p>
+
+<p><strong>Ejercicio3</strong></p>
+<p>Escribe una función que muestre el elemento que más se repite en el array. Por ejemplo arrayValor=[2,'a',4,5,1,'a','c,'c','a',3,6,'a'] Obtenemos el siguiente resultado a ->se repite 4 veces</p>
 
 
 
